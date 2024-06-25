@@ -1,0 +1,80 @@
+//contact section start//
+    #contact{
+        padding: 60px 0px 0px;
+        .contact_text{
+            padding: 5px 0px 0px;
+            h1{
+                font-size: 20px;
+                font-weight: 600;
+                line-height: 1.5;
+                letter-spacing: 2px;
+                color: #666;
+                position: relative;
+                padding: 0px 0px 45px;
+            }
+            h1::after{
+                content: "";
+                display: block;
+                position: absolute;
+                background-color: #000;
+                width: 47px;
+                height: 1px;
+                top: 50px;
+            }
+            h5{
+                font-size: 13px;
+                font-weight: bold;
+                color: #646060;
+            }
+            p{
+                max-width: 35%;
+                font-size: 14px;
+                color: #666;
+            }
+        }
+        .contact_text2{
+            padding: 10px 0px 0px;
+            h6{
+                padding: 10px 0px 0px;
+            }
+            p{
+                font-size: 14px;
+                font-weight: 400;
+                color: #666;
+                max-width: 77%;
+            }
+        }
+        .contact-form{
+            padding: 10px 0px 0px;
+            #fname{
+                padding: 10px 40px 0px;
+                margin: 10px 0px 5px;
+            }
+            #email{
+                padding: 10px 40px 0px;
+                margin: 10px 0px 5px;
+            }
+            #text{
+                padding: 10px 40px 0px;
+                margin: 10px 0px 5px;
+            }
+            #subject{
+               padding-left: 30%;
+              margin-bottom: 25px;
+            }
+            a{
+                font-size: 12px;
+                font-weight: 600;
+                color: #666;
+                padding: 15px 32px 14px;
+                text-decoration: none;
+                background-color: #efd8b9;
+                text-transform: uppercase;
+            }
+            a:hover{
+                background-color: #666;
+                color: #fff;
+            }
+        }
+    }
+//contact section end//

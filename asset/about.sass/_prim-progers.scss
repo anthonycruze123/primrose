@@ -1,0 +1,119 @@
+//prim-progerssbar section start//
+    #prim_progers{
+        padding: 30px 0px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.137);
+        .progers-text{
+            text-decoration: none;
+            p{
+                position: relative;
+                font-size: 17px;
+                font-weight: 600;
+                line-height: 1.5;
+                letter-spacing: 2px;
+                color: #666666d1;
+            }
+            ::after{
+                content: "";
+                position: absolute;
+                display: block;
+                top: 40px;
+                left: 0px;
+                width: 40px;
+                height: 1px;
+                background-color: #000;
+            }            
+        }
+        .progers-text2{
+            text-decoration: none;
+            h5{
+                font-size: 14px;
+                line-height: 1.5;
+                color:#666;
+                padding-bottom: 20px;
+            }
+            p{
+                font-size: 14px;
+                line-height: 1.5;
+                max-width: 77%;
+                color: #666;
+            }
+        }
+        .progers-text3{
+            text-decoration: none;
+            position: relative;
+            h3{
+                padding-bottom: 20px;
+                font-size: 14px;
+                line-height: 1.5;
+                color: #666;
+            }
+            p{
+                font-size: 14px;
+                line-height: 1.5;
+                max-width: 77%;
+                color: #666;
+            }
+        }
+    .bar-animate{
+      margin: 25px 0px 0px;
+      h1{
+        position: absolute;
+        top: 50%;
+        font-size: 13px;
+        left: 4px;
+        color: #666;
+    }
+    .bar_1{
+        background-color:#D2BEA0;
+        border-radius: 0px;
+        transition: width 2s;
+        width: 100px;
+        animation-name: example;
+        animation-duration: 1s;
+    }
+    @keyframes example {
+        from {width:0%;}
+        to {width: 100%;}
+      }
+    .bar_2{
+        background-color:#E5E5E5 ;
+        transition: width 2s;
+        width: 100px;
+        animation-name: example2;
+        animation-duration: 1s;
+    }
+    @keyframes example2 {
+        from {width:0%;}
+        to {width: 80%;}
+      }
+    .bar_3{
+        background-color:#E5E5E5 ;
+        transition: width 2s;
+        width: 100px;
+        animation-name: example3;
+        animation-duration: 1s;
+    }
+    @keyframes example3 {
+        from {width:0%;}
+        to {width: 70%;}
+      }
+    h4{
+        position: absolute;
+        top: 68%;
+        font-size: 14px;
+        left: 4px;
+        color: #666;
+    }
+    h5{
+        position: absolute;
+        top:86%;
+        font-size: 14px;
+        left: 4px;
+        color: #666; 
+    }
+   }    
+   .progress, .progress-stacked {
+    border-radius:0px;
+}
+}
+//prim-progerssbar section end//

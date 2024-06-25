@@ -1,0 +1,62 @@
+@media screen and (min-width: 480px){}
+@media screen and (max-width: 480px){
+    #single-prim {
+        padding: 5px 0px 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, .0745098039);
+    }
+    img, svg {
+        vertical-align: middle;
+        width: -webkit-fill-available;
+    }
+    #prim_counter {
+        padding: 5px 0px 0px;
+        border-bottom: 1px solid rgba(0, 0, 0, .1294117647);
+    }
+    #prim_progers {
+        padding: 10px 0px 30px;
+        border-bottom: 1px solid rgba(0, 0, 0, .137);
+    }
+    #prim_progers .progers-text {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    #prim_progers .progers-text ::after {
+        top: 45px;
+        left: 150px;
+    }
+    #prim-achievements {
+        padding: 20px 0px 20px;
+        border-bottom: 1px solid rgba(102, 102, 102, .6117647059);
+    }
+    #prim-achievements .achieve-heading {
+        text-decoration: none;
+        text-align: center;
+        padding-bottom: 25px;
+    }
+    #prim-achievements .achieve-heading ::after {
+       left: 40%;
+    }
+    #prim-footer .single-storke {
+        padding: 50px 0px 10px;
+    }
+    #prim-footer .single-storke ::before {
+        width: 20%;
+    }
+    #prim-footer .single-storke ::after {
+        width: 20%;
+        top: 75px;
+        left: 76%;
+    }
+}
+@media only screen and (max-width: 600px) {}
+
+@media only screen and (min-width: 600px) {}
+
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

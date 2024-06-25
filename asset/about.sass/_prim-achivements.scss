@@ -1,0 +1,62 @@
+#prim-achievements{
+    padding: 30px 0px 20px;
+    border-bottom: 1px solid #6666669c;
+    .achieve-heading{
+        text-decoration: none;
+        h2{
+          font-size: 17px;
+          font-weight: 600;
+          line-height: 1.5;
+          letter-spacing: 1px;
+          color: rgb(29 29 29 / 68%);
+          position: relative;
+      }
+        ::after{
+          content: "";
+          display: block;
+          width: 40px;
+          height: 1px;
+          background-color: black;
+          top: 45px;
+          position: absolute;
+        }
+    }
+    .press-text{
+      line-height: 1.5;
+      h5{
+        font-family: system-ui;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #666666e0;
+        }
+        p{
+          font-family: system-ui;
+          font-size: 13px;
+          font-weight: 400;
+          line-height: 1.7;
+          color: rgb(102 102 102);
+          max-width: 72%;
+          padding: 20px 0px 21px;
+      }
+    }
+    .special-awards{
+      text-decoration: none;
+      h5{
+        font-family: system-ui;
+        font-size: 15px;
+        font-weight: 700;
+        line-height: 1.5;
+        color: #666666e0;
+      }
+      p{
+        font-family: system-ui;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.7;
+        color: #2c2c2cc7;
+        max-width: 79%;
+        padding: 10px 0px 0px;
+    }
+    }
+}

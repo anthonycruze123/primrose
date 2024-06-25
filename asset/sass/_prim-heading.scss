@@ -1,0 +1,56 @@
+//primrose heading section start//
+        #prim_header{
+            background-color: rgb(253, 253, 253);
+            position: relative;
+            .top-heading{
+                position: absolute;
+                top: 75px;
+                left: 81px;
+                display: none;
+            }
+            }
+            .prim_headimg{
+              text-align: center;
+              padding: 25px 10px 10px;
+              img{
+                max-width: 10%;
+              }
+            }
+            .prim_navbar{
+                text-decoration: none;
+                background-color: #ffffff;
+             
+                .logo{
+                        display: none;
+                }
+                .prim_list{
+                        margin-left: 25%;
+                        li{
+                                padding-left: 15px;
+                         a{
+                                text-transform: uppercase;
+                                font-size: 13px;
+                                font-weight: 400;
+                                padding: 5px 7px 7px;
+                         }       
+                        }
+                        .prim-drop{
+                                display: inline-block;
+                                position: relative;
+                        }
+                        .take_hover{
+                                display: none;
+                                position: absolute;
+                                background-color: #ffffff;
+                                min-width: 150px;
+                                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);                    
+                                z-index: 1;
+                              }
+                              .prim-drop:hover .take_hover{
+                                display: block;
+                              }
+                          
+                }
+               
+        }
+//primrose heading section end//

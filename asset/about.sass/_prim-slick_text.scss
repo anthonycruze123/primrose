@@ -1,0 +1,35 @@
+#carusel-text{
+    padding: 40px 0px 0px;
+    .wrapper{
+        width:100%;
+        padding-top: 20px;
+        text-align:center;
+      }
+      .carousel{
+        width:90%;
+        margin:0px auto;
+        h1{
+            font-size: 20px;
+            line-height: 1.5;
+            font-weight: 400;
+            color: #333232d6;
+        }
+            p{
+                font-size: 15px;
+                line-height: 1.5;
+                font-weight: 400;
+                color: rgb(116 112 112 / 96%);
+            }
+        }
+      .slick-slide{
+        margin:10px;
+      }
+      .slick-slide img{
+        width:100%;
+        border: 2px solid #fff;
+      }
+      .wrapper .slick-dots li button:before {
+        font-size:50px;
+        color:rgb(0, 0, 0);
+      }
+}

@@ -1,0 +1,145 @@
+//primrose footer section start//
+    #prim-footer{
+        padding: 50px 0px 0px;
+        position: relative;
+        .single-storke{
+            padding: 20px 0px 40px;
+           
+            a{
+                text-decoration: none;
+                h3{
+                    text-align: center;
+                    font-size: 10px;
+                    font-weight: bold;
+                    color: #000;
+                }
+            }
+            :hover{
+            color: #00000073;
+            }
+            ::before{
+                content: "";
+                display: block;
+                width: 29%;
+                height: 1px;
+                background-color: #6666661c;
+                top: 77px;
+                position: absolute;
+            }
+            ::after{
+                content: "";
+                display: block;
+                width: 30%;
+                height: 1px;
+                background-color: #0000001a;
+                top: 75px;
+                left: 55%;
+                position: absolute;
+            }
+        }
+        .footer_list{
+            padding: 15px 0px 0px;
+             h6{
+                margin-left: 32px;
+                color:rgba(0, 0, 0, .7882352941);
+                font-size: 12px;
+            }
+            ul{
+                text-align:left;
+                li{
+                    list-style-type: none;
+                    a{
+                        text-decoration: none;
+                        color: #000000d2;
+                        font-size: 14px;
+                    }
+                    :hover{
+                        color: #00000073;
+                    }
+                }
+            }
+           
+        }
+        .footer-update{
+            text-align: right;
+            position: relative;
+            h6{
+                    padding: 15px 0px 10px;
+                    font-size: 13px;
+                    line-height: 1.5;
+                    color: #000000ab;
+                    font-weight: 400;
+                }
+                p{
+                    font-size: 14px;
+                    font-weight: 500;
+                    color: #000000a6;
+                    line-height: 1.2;
+                }
+                a{
+                    position: absolute;
+                    top: 100px;
+                    right: 0px;
+                    padding: 8px 25px 10px;
+                    background-color: #ccb593;
+                    color: #f0f8ff;
+                    text-decoration: none;
+                    font-size: 14px;
+                }
+               a:hover{
+                background-color: #000;
+            }
+                .form-control {
+                    display: block;
+                    width: 57%;
+                    padding: .375rem .75rem;
+                    font-size: 0.9rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    margin-left: auto;
+                    text-transform: capitalize;
+                } 
+                img{
+                    padding: 15px 0px 0px;
+                }     
+            }   
+            .single-soical{
+                text-align: center;
+                padding: 20px 0px 0px;
+                position: relative;
+                .fa-brands{
+                    color: #00000073;
+                }
+                :hover{
+                    color: #00000073;
+                    }
+                    .single-soical::before{
+                        content: "";
+                        display: block;
+                        width: 29%;
+                        height: 1px;
+                        background-color: #6666661c;
+                        top: 77px;
+                        position: absolute;
+                    }
+                    .single-soical::after{
+                        content: "";
+                        display: block;
+                        width: 30%;
+                        height: 1px;
+                        background-color: #0000001a;
+                        top: 75px;
+                        left: 55%;
+                        position: absolute;
+                    }   
+            }
+            .copy-right{
+                text-align: center;
+                padding: 15px 0px 0px;
+                font-size: 15px;
+                font-weight: 400;
+                color: #00000096;
+            }
+          
+        }
+//primrose footer section end//

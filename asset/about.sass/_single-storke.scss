@@ -1,0 +1,41 @@
+//single-storke section start//
+    #single-prim{
+        padding: 95px 0px 50px;
+        border-bottom: 1px solid #00000013;
+        .single-heading{
+            padding: 10px 0px 0px;
+            h4{
+                padding: 10px 0px 30px;
+                font-size: 20px;
+                color: #000000a3;
+                position: relative;
+            }
+            ::after{
+                content: "";
+                position: absolute;
+                top: 58px;
+                display: block;
+                width: 40px;
+                height: 1px;
+                background-color: #463e3e;
+            }
+            }
+            .single-text{
+                padding: 20px 0px 0px;
+                p{
+                    font-size: 14px;
+                    max-width: 91%;
+                    color: rgba(0, 0, 0, .6901960784);
+                    line-height: 1.5;
+                }                
+                ul{
+                    text-decoration: none;
+                    li{
+                        font-size: 14px;
+                        color: #000000ab;
+                        line-height: 1.5;
+                    }
+                }
+            }
+        }
+//single-storke section end//

@@ -1,0 +1,256 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+  }
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+  .wrapper{
+    width:100%;
+    padding-top: 20px;
+    text-align:center;
+  }
+  h2{
+    font-family:sans-serif;
+    color:#fff;
+  }
+  .carousel{
+    width:90%;
+    margin:0px auto;
+  }
+  .slick-slide{
+    margin:10px;
+  }
+  .slick-slide img{
+    width:100%;
+    border: 2px solid #fff;
+  }
+  .wrapper .slick-dots li button:before {
+    font-size:20px;
+    color:white;
+  }
+        
+        
+  .sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 1% 20% 1%;
+    z-index: 1;
+    border-bottom: 1px solid #00000033;}
+
+
+ 
+    
+    /*----------  Container menu iso-gallery  ----------*/
+.container_menu_iso {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  font-family: "Raleway", sans-serif;
+  margin: 4rem 0;
+}
+
+.container_menu_iso .menu_iso li {
+  float: left;
+  list-style: none;
+  padding: 20px 15px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 600px) {
+  .container_menu_iso .menu_iso li {
+    padding: 30px 6px;
+  }
+}
+
+.container_menu_iso .menu_iso li a {
+  font-style: italic;
+  padding: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 13px #6e6e6e, -5px -5px 13px #ffffff;
+  box-shadow: 5px 5px 13px #6e6e6e, -5px -5px 13px #ffffff;
+}
+
+.container_menu_iso .menu_iso li a:hover {
+  color: #151c2f;
+  -webkit-box-shadow: inset 5px 5px 13px #6e6e6e, inset -5px -5px 13px #ffffff;
+  box-shadow: inset 5px 5px 13px #6e6e6e, inset -5px -5px 13px #ffffff;
+}
+
+@media screen and (max-width: 600px) {
+  .container_menu_iso .menu_iso li a {
+    padding: 15px;
+    font-size: 0.8rem;
+  }
+}
+
+/* Main settings isotopes images */
+.img_iso {
+  position: relative;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 250px;
+  width: 300px;
+  margin: 10px;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -ms-transition: all 0.5s ease-in-out;
+  -o-transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 768px) {
+  .img_iso {
+    height: 230px;
+    width: 230px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .img_iso {
+    height: 180px;
+    width: 160px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .img_iso {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.img_iso:hover {
+  -webkit-box-shadow: 6px 4px 11px 3px #999999;
+  box-shadow: 6px 4px 11px 3px #999999;
+  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+  -moz-transform: scale(1.05);
+  -ms-transform: scale(1.05);
+  -o-transform: scale(1.05);
+}
+
+/*=============================================
+=     Isotopes Images                        =
+=============================================*/
+
+/* Blue Patterns */
+
+.blu1 {
+  background-image: url("https://images.unsplash.com/photo-1515266591878-f93e32bc5937?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.blu2 {
+  background-image: url("https://images.unsplash.com/photo-1462556791646-c201b8241a94?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.blu3 {
+  background-image: url("https://images.unsplash.com/photo-1520690214124-2405c5217036?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.blu4 {
+  background-image: url("https://images.unsplash.com/photo-1417721955552-a49ac2d334e8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* World of red */
+
+.red1 {
+  background-image: url("https://images.unsplash.com/photo-1530128118208-89f6ce02b37b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.red2 {
+  background-image: url("https://images.unsplash.com/photo-1519181245277-cffeb31da2e3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.red3 {
+  background-image: url("https://images.unsplash.com/photo-1487029752779-a0c17b1f5ec9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.red4 {
+  background-image: url("https://images.unsplash.com/photo-1516368694098-47836cebec97?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+
+/* Pink Architecture */
+
+.pink1 {
+  background-image: url("https://images.unsplash.com/photo-1494271823928-a80211877d80?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.pink2 {
+  background-image: url("https://images.unsplash.com/photo-1534179523731-b2922018150a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.pink3 {
+  background-image: url("https://images.unsplash.com/photo-1555988776-c3f17e5cb789?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+.pink4 {
+  background-image: url("https://images.unsplash.com/photo-1526566762798-8fac9c07aa98?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-size: cover;
+  background-position: center center;
+}
+
+/*----------  Overlay with text on image hover ----------*/
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(30, 32, 32, 0.472);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transform: scale(0);
+  transition: all 0.4s ease-in-out;
+}
+
+/* On hover, the overlay text will "zoom" in display */
+.img_iso:hover .overlay {
+  transform: scale(1);
+}
+
+/* Some text inside the overlay, which is positioned in the middle vertically and horizontally */
+.text {
+  font-family: "Raleway", sans-serif;
+  color: white;
+  font-size: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 100%;
+}
